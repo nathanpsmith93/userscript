@@ -11,7 +11,7 @@
 
 
 // Set Ticket Group Data
-const GroupList = ["Group_MR1","Group_MR2","Group_MR3","Group_MR4","Group_MR5"];
+const GroupList = ["Group_RS1"];
 
 const Group_RS1Reg = ["1584477547","3370852160","448888428","1994525126"];
 const Group_RS1PC = ["TR109FN","YO233SH","BS247FZ","PL126NJ"];
