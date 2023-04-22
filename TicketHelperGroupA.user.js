@@ -2,11 +2,10 @@
 // @name         TicketHelper - Group Population
 // @description  Add our Group Data onto the Registration Form
 // @version      23.04.5
-// @updateURL    https://campsolo.info/scripts/TicketHelperGroups.user.js
-// @downloadURL  https://campsolo.info/scripts/TicketHelperGroups.user.js
+// @updateURL    https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
+// @downloadURL  https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
 // @match        *://glastonbury.seetickets.com/*
 // @match        *://advance.byethost17.com/*
-// @match        *://campsolo.info/*
 // @run-at       document-end
 // ==/UserScript==
 
@@ -14,16 +13,8 @@
 // Set Ticket Group Data
 const GroupList = ["Group_MR1","Group_MR2","Group_MR3","Group_MR4","Group_MR5"];
 
-const Group_MR1Reg = ["2588742008","271586035","699674289","996692613"];
-const Group_MR1PC = ["SE20 7TZ","DL6 2FR","DL6 2FR","CV10 0BS"];
-const Group_MR2Reg = ["2566681809","3510572666","4039865721","1152414005"];
-const Group_MR2PC = ["KT18 7BH","KT6 4TR","CM11 2NG","E17 9LR"];
-const Group_MR3Reg = ["725516196","626485675","326787993","1532898442"];
-const Group_MR3PC = ["TN38 0GB","SW15 6SY","SW15 6SY","CR6 9NP"];
-const Group_MR4Reg = ["3540738398","3513745223","2105881903","3031976968"];
-const Group_MR4PC = ["TN25 6PU","TN25 6PU","6248706","3184"];
-const Group_MR5Reg = ["26280459","255606037","936541937","2050391374"];
-const Group_MR5PC = ["CO4 9EU","NW5 2XA","E10 5DS","E10 5DS"];
+const Group_RS1Reg = ["1584477547","3370852160","448888428","1994525126"];
+const Group_RS1PC = ["TR109FN","YO233SH","BS247FZ","PL126NJ"];
 
 
 // Group Initialisation & Population
