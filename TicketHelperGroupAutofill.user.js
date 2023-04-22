@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         TicketHelper - Group Population
+// @name         TicketHelper - Group Autofill
 // @description  Add our Group Data onto the Registration Form
-// @version      23.04.5
+// @version      1.0
 // @updateURL    https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
 // @downloadURL  https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
 // @match        *://glastonbury.seetickets.com/*
