@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         TicketHelper - Group Autofill
 // @description  Add our Group Data onto the Registration Form
-// @version      1.1
-// @updateURL    https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
-// @downloadURL  https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupA.user.js
+// @version      0.1.1
+// @updateURL    https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupAutofill.user.js
+// @downloadURL  https://raw.githubusercontent.com/nathanpsmith93/userscript/main/TicketHelperGroupAutofill.user.js
 // @match        *://glastonbury.seetickets.com/*
 // @match        *://advance.byethost17.com/*
 // @run-at       document-end
@@ -13,8 +13,8 @@
 // Set Ticket Group Data
 const GroupList = ["Group_RS1"];
 
-const Group_RS1Reg = ["1584477547","3370852160","448888428","1994525126"];
-const Group_RS1PC = ["TR109FN","YO233SH","BS247FZ","PL126NJ"];
+const Group_RS1Reg = ["1584477547","3370852160","1684031442","2092989220"];
+const Group_RS1PC = ["TR109FN","YO233SH","SW128TN","E13FB"];
 
 
 // Group Initialisation & Population
